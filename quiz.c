@@ -5,11 +5,14 @@
 #include <time.h>
 #define CHOICES 3
 
+// Prototypes
 void welcome();
+
 double lostPoints(int, int);
 
 int random();
 
+// Enter point
 int main(){
 
     welcome();
@@ -21,7 +24,6 @@ int main(){
 
     // use function to return value random
     numberSecret = random();
-
 
 
     while(1){
